@@ -4,9 +4,9 @@ const ProjectDiscussion = () => {
     return (
         <div className="container flex flex-col md:flex-row items-center justify-between p-8 bg-gradient-to-r from-yellow-400 via-yellow-300 to-green-400 w-[90%]">
             <div className="text-white">
-                <h2 className="text-4xl font-bold mb-2">Let's discuss<br />Your project</h2>
+                <h2 className="text-4xl font-bold mb-2">Let&apos;s discuss<br />Your project</h2>
                 <p className="text-lg">
-                    Let's figure out how to create an effective application,<br />
+                    Let&apos;s figure out how to create an effective application,<br />
                     its cost and terms of its development
                 </p>
             </div>

@@ -23,7 +23,7 @@ const OurTeam = () => {
                             <p>in IT sphere</p>
                         </div>
                     </div>
-                    <p className="text-sm">All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it!</p>
+                    <p className="text-sm">All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It&apos;s expensive but worth it!</p>
                 </div>
                 <div className="md:w-1/2 mt-8 md:mt-0">
                     <Image src="/images/ourteam.png" alt="Our Team" className="rounded-lg shadow-lg" height={400} width={600} />
