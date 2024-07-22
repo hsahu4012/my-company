@@ -3,7 +3,7 @@ import React from "react";
 
 const Media = () => {
     return (
-        <div className="container w-[90%] border rounded-lg" >
+        <div className="container w-[90%] border rounded-lg border-l-0 border-r-0" >
             <div className="py-24 flex flex-col md:flex-row-reverse items-center justify-between gap-8" id="media">
                 {/* img */}
                 <Image

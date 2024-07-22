@@ -13,7 +13,7 @@ const LandingHero = () => {
         </h1>
         <p className="text-lg mb-6">
           Experience a Seamless Digital Journey with <span className="text-green-500">Desun</span> - Where Every Line
-          of Code Resolves Your Challenges and <span className="text-yellow-400">Elevates Your App Experience</span>
+          of Code Resolves Your Challenges and <span className="text-yellow-400">Elevates Your App Experience </span>
           to Unparalleled Heights.
         </p>
         <div className="bg-white rounded-lg  p-6 border-t-2 shadow-md">
@@ -21,7 +21,7 @@ const LandingHero = () => {
             Leave your contacts and we will call you back within 30 minutes
           </h2>
           <form className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">Full name</label>
                 <input type="text" id="fullName" name="fullName" placeholder="My Name" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" />
@@ -34,7 +34,7 @@ const LandingHero = () => {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label htmlFor="businessName" className="block text-sm font-medium text-gray-700">Business name</label>
                 <input type="text" id="businessName" name="businessName" placeholder="ABC Technologies PVT LTD" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" />
