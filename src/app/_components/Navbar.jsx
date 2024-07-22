@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -9,11 +10,11 @@ const Navbar = () => {
 
             </div>
             <ul className="hidden md:flex space-x-4">
-                <li><a href="#services" className="text-gray-600 hover:text-blue-500">Services</a></li>
-                <li><a href="#media" className="text-gray-600 hover:text-blue-500">Media</a></li>
-                <li><a href="#cases" className="text-gray-600 hover:text-blue-500">Cases</a></li>
-                <li><a href="#faq" className="text-gray-600 hover:text-blue-500">FAQ</a></li>
-                <li><a href="#contacts" className="text-gray-600 hover:text-blue-500">Contacts</a></li>
+                <li><Link href="#" className="text-gray-600 hover:text-blue-500">Services</Link></li>
+                <li><Link href="#media" className="text-gray-600 hover:text-blue-500">Media</Link></li>
+                <li><Link href="#cases" className="text-gray-600 hover:text-blue-500">Cases</Link></li>
+                <li><Link href="#faq" className="text-gray-600 hover:text-blue-500">FAQ</Link></li>
+                <li><Link href="#contacts" className="text-gray-600 hover:text-blue-500">Contacts</Link></li>
             </ul>
             <div className="hidden md:flex items-center space-x-4">
                 <span className="flex items-center text-green-500">

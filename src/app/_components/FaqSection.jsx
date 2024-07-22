@@ -24,7 +24,7 @@ const FaqSection = () => {
     ];
 
     return (
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-4 py-8" id="faq">
             <div className="mb-16">
                 <h2 className="text-3xl font-bold mb-8">FAQ</h2>
                 <div className="flex flex-wrap -mx-4">

@@ -1,6 +1,6 @@
 // import Image from "next/image";
 import LandingHero from "./_components/LandingHero";
-import LogoContainer from "./_components/LogoContainer";
+import Media from "./_components/Media";
 import DevTechnologies from "./_components/DevTechnologies";
 import ProjectShowcase from "./_components/ProjectShowcase";
 import ProjectDiscussion from "./_components/ProjectDiscussion";
@@ -41,7 +41,7 @@ export default function Home() {
           <NavbarMobile />
         </div>
         <LandingHero />
-        <LogoContainer />
+        <Media />
         <DevTechnologies />
         <ProjectShowcase />
         <ProjectDiscussion />

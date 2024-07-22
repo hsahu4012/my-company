@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
 
-const LogoContainer = () => {
+const Media = () => {
     return (
         <div className="container w-[90%] border rounded-lg" >
-            <div className="py-24 flex flex-col md:flex-row-reverse items-center justify-between gap-8">
+            <div className="py-24 flex flex-col md:flex-row-reverse items-center justify-between gap-8" id="media">
                 {/* img */}
                 <Image
                     src="/images/image 10.png"
@@ -55,4 +55,4 @@ const LogoContainer = () => {
     );
 };
 
-export default LogoContainer;
+export default Media;

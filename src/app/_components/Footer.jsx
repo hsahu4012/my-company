@@ -3,9 +3,9 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-4 py-8" id="contacts">
             {/* Footer */}
-            <div className="bg-gray-900 text-white p-8 rounded-lg">
+            <div className="bg-gray-900 text-white p-8 rounded-lg" >
                 <div className="flex justify-center  items-center mb-4">
                     <Image src="/images/footer-logo.png" alt="My Company Logo" height={113} width={290} />
                 </div>
